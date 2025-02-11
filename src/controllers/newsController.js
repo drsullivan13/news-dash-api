@@ -1,4 +1,6 @@
-import { fetchNewsArticles, fetchNewsSources } from '../services/newsService.js'
+// import { fetchNewsArticles, fetchNewsSources } from '../services/newsService.js'
+import { fetchNewsArticles, fetchNewsSources } from '../services/newsServiceV2.js'
+
 
 export const getNews = async (req, res, next) => {
   try {
