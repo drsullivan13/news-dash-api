@@ -132,7 +132,7 @@ export const fetchNewsArticles = async ({
 
 export const fetchNewsSources = async () => {
   const response = await axios.get(
-    `${NEWS_API_BASE_URL}/top-headlines/sources`,
+    `${NEWS_API_BASE_URL}/sources`,
     {
       headers: {
         'X-Api-Key': process.env.NEWS_API_KEY
